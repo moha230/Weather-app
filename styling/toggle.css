@@ -1,0 +1,58 @@
+
+
+.toggle-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  
+   
+ }
+ 
+ .toggle-container{
+   display: flex;
+   width: 136.863px;
+   height: 60.028px;
+   background: rgba(255, 255, 255, 0.16);
+   border-radius: 150.069px;
+ }
+ 
+ .toggle{
+ width: 79.237px;
+ height: 60.028px;
+ background:transparent ;
+ border: none;
+ border-radius: 150.069px;
+ 
+ }
+ 
+ .is-toggle{
+   border-radius: 150.069px;
+   background: rgba(255, 255, 255, 0.18);
+ }
+
+ .info-section-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr ;
+  
+  
+ }
+ 
+ .temp-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  
+  font-size: 178.35px;   
+  font-style: normal;
+  
+  line-height: 120%; /* 214.02px */
+  width: 208.703px;
+height: 213.835px;
+
+
+
+
+ }

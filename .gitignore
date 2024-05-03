@@ -1,0 +1,76 @@
+# OS generated files #
+######################
+.DS_Store
+Thumbs.db
+
+# Node.js / npm #
+################
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Visual Studio Code #
+######################
+.vscode/
+
+# IDEs #
+########
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled output #
+###################
+dist/
+build/
+*.exe
+*.dll
+*.class
+*.war
+*.jar
+
+# Logs and databases #
+######################
+*.log
+*.sqlite
+*.sqlitedb
+*.db
+*.hprof
+
+# Package files #
+#################
+*.gz
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+
+# Dependency directories #
+##########################
+vendor/
+
+# Compiled Python files #
+#########################
+*.pyc
+__pycache__/
+
+# Byte-compiled / optimized / DLL files #
+########################################
+*.py[cod]
+*$py.class
+
+# Local env files #
+###################
+.env
+.env.local
+.env.*.local
+
+# Miscellaneous #
+################
+*.bak
+*.cache
+*.swp
+*.tmp
+*.temp
