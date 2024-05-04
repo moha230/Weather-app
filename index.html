@@ -21,28 +21,24 @@
   </head>
   <body>
     <main class="container">
+      <!--Header-->
       <header class="header-section">
         <div class="left-side">
-          <img class="home-icon" src="/resources/icons-png/home.svg" />
-          <button class="home-button">Home</button>
+          <button class="save-button"> + Add</button>
         </div>
         <div class="center">
-          <img
-            src="/resources/icons-png/Location.svg"
-            alt="location"
-            class="location-icon"
-          />
-          <input class="search-input" type="text" placeholder="Inter-city" />
-          <button class="search-button">
-            <img class="search-icon" src="/resources/icons-png/search.svg" />
-          </button>
-        </div>
-        <div class="right-side">
-          <img class="love-icon" src="resources/icons-png/like.png" />
-          <button class="save-button">Save</button>
+          <input class="search-input" type="text" placeholder="Inter-city"> </div>
         </div>
       </header>
+      <!--sidebar-->
 
+      <aside class="sidebar">
+        <!-- Sidebar content goes here -->
+        <ul class="favorites-list">
+          <!-- Placeholder for favorite locations -->
+        </ul>
+      </aside>
+      
       <div class="card-container">
         <!-- First Row -->
         <div class="first-row">
@@ -76,10 +72,7 @@
           <div>
             <span class="temperature">25</span><span class="unit">°C</span>
           </div>
-          <div class="location-area">Delhi India</div>
-          <div class="item">
-            <img class="favourite-icon" src="/resources/icons-png/Big-heart.png" />
-          </div>
+          <div class="location-area city">Delhi India</div>
         </div>
 
         <!-- Third Row -->
@@ -100,7 +93,7 @@
               alt="wind-direction"
             />
             <span class="weather-info-label">Wind Speed</span>
-            <span class="weather-info-value">10km/h</span>
+            <span class="weather-info-value wind">10km/h</span>
           </div>
           <div class="item">|</div>
           <div class="weather-info-item">
@@ -110,7 +103,7 @@
               alt="humidity"
             />
             <span class="weather-info-label">humidity</span>
-            <span class="weather-info-value">54%</span>
+            <span class="weather-info-value humidity">54%</span>
           </div>
           <div class="item">|</div>
           <div class="weather-info-item">
@@ -178,5 +171,6 @@
     </main>
     <script src="/js/header.js"></script>
     <script src="/js/toggle.js"></script>
+    <script src="/js/weatherApi.js"></script>
   </body>
 </html>
