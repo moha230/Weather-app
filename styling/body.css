@@ -83,12 +83,14 @@
   .toggle-input:not(:checked) + .toggle-label {
     background: transparent;
   }
+
 /*styling the second row*/
 
 .second-row {
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-start;
   align-items: center;
+  gap: 150px;
 }
 
 .location-area{
