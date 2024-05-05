@@ -4,6 +4,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 
 
 
+
 // data coming form the api get request using fetch api 
 
 async function getWeather(city) {
@@ -31,18 +32,27 @@ async function getWeather(city) {
   // Get the hour and minute components from the local time
   const hours = localTime.getHours();
   const minutes = localTime.getMinutes();
+  //lets work on the date month and year 
   const month = localTime.getMonth();
-  const day = localTime.getDay();
+  const day = localTime.getDate();
   const year = localTime.getFullYear();
 
+  // Get the month name from the local time
+  const monthName = localTime.toLocaleDateString('en-US', { month: 'long' });
+  document.querySelector('.date-month-year').innerHTML = `${day} ${monthName} ${year}`;
+
+
+  // get the day of the week from local time 
+  const options = { weekday: 'long' };
+  const dayName = localTime.toLocaleDateString('en-US', options);
+  console.log(dayName)
+  document.querySelector('.day-of-week').textContent = dayName;
+
   const formattedTime = `${hours < 10 ? '0' + hours : hours}:${minutes < 10 ? '0' + minutes : minutes}`;
+  document.querySelector('.time').textContent = formattedTime;
 
-
-  document.querySelector('.time').innerHTML = formattedTime;
-  document.querySelector('.date-month-year').innerHTML = `${day} ${month} ${year}`;
 
 }
-
 
 
 
