@@ -75,6 +75,7 @@ if(weatherData.weather[0].main == 'Clouds'){
 }else if (weatherData.weather[0].main == 'Clouds'){
   weatherIcon.src ="resources/weather-icons/cloud/cloud.svg";
 };
+}
 
 // lets get the value from the The input field  
 let inputFieldValue = document.querySelector('.search-input');
@@ -86,4 +87,4 @@ inputFieldValue.addEventListener('keydown', (event) => {
     const searchValue = inputFieldValue.value;
     getWeather(searchValue);
   }
-})
+});
