@@ -72,9 +72,9 @@ if(weatherData.weather[0].main == 'Clouds'){
   weatherIcon.src ="resources/weather-icons/clear/01d.svg"
 }else if (weatherData.weather[0].main == 'Mist'){
   weatherIcon.src ="resources/weather-icons/mist/Mist.svg"
+}else if (weatherData.weather[0].main == 'Clouds'){
+  weatherIcon.src ="resources/weather-icons/cloud/cloud.svg";
 };
-
-}
 
 // lets get the value from the The input field  
 let inputFieldValue = document.querySelector('.search-input');
