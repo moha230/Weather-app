@@ -61,17 +61,17 @@ console.log(weatherData)
 
 
 if(weatherData.weather[0].main == 'Clouds'){
-  weatherIcon.src ="/resources/weather-icons/cloud/cloud.svg"
+  weatherIcon.src ="resources/weather-icons/cloud/cloud.svg"
 } else if (weatherData.weather[0].main == 'Rain'){
-  weatherIcon.src ="/resources/weather-icons/rain/rain.svg"
+  weatherIcon.src ="resources/weather-icons/rain/rain.svg"
 } else if (weatherData.weather[0].main == 'Snow'){
-  weatherIcon.src ="/resources/weather-icons/snow/snow.svg"
+  weatherIcon.src ="resources/weather-icons/snow/snow.svg"
 } else if (weatherData.weather[0].main == 'Thunderstorm'){
-  weatherIcon.src ="/resources/weather-icons/thunderstorm/11d.svg"
+  weatherIcon.src ="resources/weather-icons/thunderstorm/11d.svg"
 }else if (weatherData.weather[0].main == 'Clear'){
-  weatherIcon.src ="/resources/weather-icons/clear sky/01d.svg"
+  weatherIcon.src ="resources/weather-icons/clear/01d.svg"
 }else if (weatherData.weather[0].main == 'Mist'){
-  weatherIcon.src ="/resources/weather-icons/mist/Mist.svg"
+  weatherIcon.src ="resources/weather-icons/mist/Mist.svg"
 };
 
 }
