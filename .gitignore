@@ -27,7 +27,6 @@ dist/
 build/
 *.exe
 *.dll
-*.class
 *.war
 *.jar
 
