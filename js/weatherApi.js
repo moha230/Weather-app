@@ -5,7 +5,7 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 const weatherIcon = document.querySelector('.weather-icon');
 console.log(weatherIcon)
 
- document.querySelector('.description');
+
 
 // data coming from the api get request using fetch api 
 
@@ -13,8 +13,6 @@ async function getWeather(city) {
   const data = apiUrl + city + '&appid=' + apiKey;
   const response = await fetch(data);
   const weatherData = await response.json();
-  
-console.log(weatherData)
   
 
   document.querySelector('.city').innerHTML = weatherData.name;

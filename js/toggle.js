@@ -15,3 +15,5 @@ function turnOffPreviousButton(){
     previousButton.classList.remove('is-toggle')
   }
 }
+
+
