@@ -29,7 +29,3 @@ This Markdown file outlines the core requirements and functionalities of a weath
 ## Functionality Implementation
 
 To implement the above functionalities, the app will require both frontend and backend components. Here's a high-level overview of how each functionality can be implemented:
-
-### User Search:
-- **Frontend:** Create an input field where users can enter a location.
-- **Backend:** Implement a method to retrieve weather data from a weather API (such as OpenWeatherMap) based on the 
