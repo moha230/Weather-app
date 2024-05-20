@@ -1,6 +1,7 @@
 # Weather Forecast App
 
 This Markdown file outlines the core requirements and functionalities of a weather forecast app.
+In the resource folder there is design file Weather App.fig please use figma to open the file.
 
 ## Core Requirements
 
