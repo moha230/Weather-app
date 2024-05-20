@@ -26,6 +26,4 @@ This Markdown file outlines the core requirements and functionalities of a weath
    - Each favorite location entry should display basic information about the weather forecast for that location.
    - Users should be able to select a favorite location from the list to view its detailed weather forecast.
 
-## Functionality Implementation
 
-To implement the above functionalities, the app will require both frontend and backend components. Here's a high-level overview of how each functionality can be implemented:
