@@ -26,5 +26,3 @@ In the resource folder there is design file Weather App.fig please use figma to 
    - The app should provide a dedicated section or view where users can see a list of their favorite locations.
    - Each favorite location entry should display basic information about the weather forecast for that location.
    - Users should be able to select a favorite location from the list to view its detailed weather forecast.
-
-
